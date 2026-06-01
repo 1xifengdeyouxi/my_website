@@ -13,7 +13,7 @@ export const siteConfig: SiteConfig = {
 	subtitle: "wmt个人博客网站",
 
 	// 站点 URL
-	site_url: "",
+	site_url: "https://blog.wmt9038.xyz",
 
 	// 站点描述
 	description:
