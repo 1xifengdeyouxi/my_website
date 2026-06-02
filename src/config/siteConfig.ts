@@ -21,9 +21,15 @@ export const siteConfig: SiteConfig = {
 
 	// 站点关键词
 	keywords: [
-		"Firefly",
-		"Fuwari",
-		"Astro",
+		"wmt site",
+		"WMT",
+		"个人博客",
+		"技术博客",
+		"编程",
+		"前端",
+		"后端",
+		"学习笔记",
+		"生活记录",
 		"ACGN",
 		"博客",
 		"技术博客",
@@ -79,7 +85,7 @@ export const siteConfig: SiteConfig = {
 			alt: "🍀",
 		},
 		// 导航栏标题
-		title: "Firefly",
+		title: "WindMeta ₍˄·͈༝·͈*₎◞ ̑̑",
 		// 全宽导航栏，导航栏是否占满屏幕宽度
 		widthFull: false,
 		// 导航菜单对齐方式，left：左对齐，center：居中
