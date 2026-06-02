@@ -85,12 +85,28 @@ export const spineModelConfig: SpineModelConfig = {
 // Live2D 看板娘配置 (使用 l2d-widget 库，文档：https://l2d-widget.hacxy.cn)
 export const live2dWidgetConfig: Live2DWidgetConfig = {
 	// Live2D 看板娘开关
-	enable: false,
+	enable: true,
 	// 模型配置，支持单个模型或数组（多模型切换）
 	model: [
 		{
+			// 外部直连模型
+			path: "/pio/models/live2d/ug/model3.json",
+			volume: 0,
+			scale: 1,
+			x: 0,
+			y: 0,
+		},
+		{
+			// 外部直连模型
+			path: "/pio/models/live2d/rory/model3.json",
+			volume: 0,
+			scale: 1,
+			x: 0,
+			y: 0,
+		},
+		{
 			// Live2D模型本地文件路径
-			path: "/pio/models/live2d/snow_miku/model.json",
+			path: "/pio/models/live2d/nahida/Nahida_1080/model3.json",
 			// 动作声音音量 范围0~1，默认 0（静音）
 			volume: 0,
 			// 模型缩放比例
@@ -98,14 +114,6 @@ export const live2dWidgetConfig: Live2DWidgetConfig = {
 			// X轴偏移，范围 -2~2，正值向右
 			x: 0,
 			// Y轴偏移，范围 -2~2，正值向上
-			y: 0,
-		},
-		{
-			// 外部直连模型
-			path: "https://model.hacxy.cn/cat-black/model.json",
-			volume: 0,
-			scale: 1,
-			x: 0,
 			y: 0,
 		},
 	],
@@ -157,7 +165,7 @@ export const live2dWidgetConfig: Live2DWidgetConfig = {
 		// 气泡开关
 		enable: true,
 		// 初始欢迎消息
-		welcomeMessage: ["你好呀！", "欢迎来到我的世界！"],
+		welcomeMessage: ["你好呀！", "欢迎来到我的博客！"],
 		// 循环提示内容
 		messages: [
 			"有什么需要帮助的吗？",
