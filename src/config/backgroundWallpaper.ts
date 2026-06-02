@@ -70,17 +70,17 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			// 是否允许用户通过控制面板切换横幅标题显示
 			switchable: true,
 			// 主页横幅主标题
-			title: "Lovely firefly!",
+			title: "WindMeta ₍˄·͈༝·͈*₎◞ ̑̑",
 			// 主页横幅主标题字体大小
 			titleSize: "3.8rem",
 			// 主页横幅副标题
 			subtitle: [
-				"In Reddened Chrysalis, I Once Rest",
-				"From Shattered Sky, I Free Fall",
-				"Amidst Silenced Stars, I Deep Sleep",
-				"Upon Lighted Fyrefly, I Soon Gaze",
-				"From Undreamt Night, I Thence Shine",
-				"In Finalized Morrow, I Full Bloom",
+				"记录 Android 开发中的问题与答案",
+				"整理 Java 与 Kotlin 的实践笔记",
+				"把踩过的坑写成可复用的经验",
+				"从报错日志到解决方案",
+				"持续积累移动开发知识",
+				"写给未来自己的技术备忘录",
 			],
 			// 主页横幅副标题字体大小
 			subtitleSize: "1.5rem",

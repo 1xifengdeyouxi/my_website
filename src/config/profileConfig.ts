@@ -9,7 +9,7 @@ export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/avatar.avif",
 
 	// 名字
-	name: "小汐",
+	name: "WindMeta ₍˄·͈༝·͈*₎◞ ̑̑",
 
 	// 个人签名
 	bio: "Hello, 欢迎光临我的博客网站.",
@@ -24,7 +24,7 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "qq",
 			icon: "fa7-brands:qq",
-			url: "",
+			url: "https://qm.qq.com/q/8M1vmq3kre",
 			showName: false,
 		},
 		{
