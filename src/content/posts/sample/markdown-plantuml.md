@@ -4,7 +4,7 @@ published: 2026-01-01
 description: 用于验证 Firefly 中 PlantUML 插件渲染、主题切换与交互能力的示例文章。
 tags: [PlantUML, 文章示例, Markdown]
 category: 文章示例
-draft: false
+draft: true
 ---
 
 ## Markdown 中 PlantUML 图表指南
