@@ -239,7 +239,7 @@ export const siteConfig: SiteConfig = {
 
 </details>
 
-![Docusaurus](./images/docusaurus.avif)
+![Docusaurus](../images/docusaurus.avif)
 
 ---
 
